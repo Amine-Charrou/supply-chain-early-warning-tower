@@ -2,11 +2,14 @@
 
 > Forecast demand and flag stockouts and late deliveries before they happen.
 
-![status](https://img.shields.io/badge/status-planned-lightgrey) ![phase](https://img.shields.io/badge/sprint-Weeks%2013--14-blue)
+![status](https://img.shields.io/badge/status-design%20stage-lightgrey) ![sprint](https://img.shields.io/badge/sprint-Weeks%2013--14-blue) ![project](https://img.shields.io/badge/portfolio-07%2F08-0891b2)
 
-**Category:** Forecasting & Operations Analytics · **Domain:** Logistics / Manufacturing · **Stack:** Python · statsmodels / Prophet · LightGBM · Power BI
-
-Project 07/08 of my *Data & AI × Business Consulting* portfolio. 🚧 **Design stage, no implementation yet.**
+| | |
+|---|---|
+| **Category** | Forecasting & Operations Analytics |
+| **Domain** | Logistics / Manufacturing |
+| **Stack** | Python · statsmodels / Prophet · LightGBM · Power BI |
+| **Status** | 🚧 Scoped — implementation not started |
 
 ## Overview
 
@@ -15,6 +18,13 @@ An operational analytics system that combines demand forecasting with two risk m
 ## Business problem
 
 Supply-chain managers need to anticipate demand shifts, stockouts, late deliveries and supplier issues before they hit operations.
+
+## What this project demonstrates
+
+- Time-series forecasting with rigorous backtesting
+- Operational risk modelling
+- Cost-aware alert design
+- Turning analytics into an operational decision system
 
 ## Key points
 
@@ -59,14 +69,16 @@ Control-tower dashboard
 data/  notebooks/  src/{forecasting,risk,alerts}  dashboard/  docs/
 ```
 
-## Status
+## Roadmap
 
 - [x] Scope and README
-- [ ] Data
-- [ ] Implementation
-- [ ] Evaluation & business impact
-- [ ] Demo and write-up
+- [ ] Data collection / generation
+- [ ] Core implementation
+- [ ] Evaluation and business-impact estimate
+- [ ] Demo, write-up and interview notes
 
 ---
 
-*Author: Amine Charrou · Final-year Data Science & AI engineering student, ENSA Agadir*
+Part of my **Data & AI × Business Consulting** portfolio, a 16-week sprint of 8 projects going from data and BI to ML, GenAI, agents, automation and AI strategy. See all projects on my [GitHub profile](https://github.com/Amine-Charrou).
+
+*Amine Charrou · Final-year Data Science & AI engineering student, ENSA Agadir · [LinkedIn](https://www.linkedin.com/in/amine-charrou/)*
